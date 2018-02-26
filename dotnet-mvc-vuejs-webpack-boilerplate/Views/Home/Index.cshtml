@@ -8,8 +8,13 @@
 <h1>Hello World!</h1>
 <h2>I am Index.cshtml.</h2>
 
+<div id="vue-app">
+    <how-are-you></how-are-you>
+</div>
+
 @section scripts
 {
     @Html.Script("~/dist/commons.js")
     @Html.Script("~/dist/layout.js")
+    @Html.Script("~/dist/Home/index.js")
 }

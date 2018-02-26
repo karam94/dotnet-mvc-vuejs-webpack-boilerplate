@@ -129,8 +129,15 @@
   <ItemGroup>
     <Content Include=".eslintrc.js" />
     <Content Include="Content\stylesheet.css" />
+    <Content Include="dist\commons.js" />
+    <Content Include="dist\Home\index.js" />
+    <Content Include="dist\layout.js" />
+    <Content Include="dist\store\store.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Views\Home\index.js" />
+    <Content Include="Views\layout.js" />
+    <Content Include="Views\store\store.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -145,7 +152,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="dist\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -155,6 +161,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="package.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\components\Navbar.vue" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\components\HowAreYou.vue" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
